@@ -324,12 +324,12 @@ h3 {
 }
 
 .some-2 {
-    padding: 3rem;
-    margin: 1rem;
-    width: 512px;
+    margin: 2rem;
+    max-width: 50%;
     justify-content: space-evenly;
     text-align: center;
 }
+
 .some-3{
     
     justify-content: space-evenly;
