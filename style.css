@@ -142,12 +142,11 @@ body {
     justify-content: center;
 }
 
-.wallpaper {
-    display: flex;
-}
 
 .wallpaper>img:hover {
-    transform: scale(1.2);
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: 2s;
 }
 
 .section {
@@ -184,11 +183,10 @@ body {
 
 .button {
     margin-top: 1rem;
-    width: 8rem;
     align-self: center;
     text-transform: uppercase;
     font-weight: 100;
-    padding: 0.4rem;
+    padding: 1rem 1.4rem;
     background-color: #f3764a;
     letter-spacing: 1.5px;
     border: 0;
@@ -202,7 +200,6 @@ body {
     margin-top: 4rem;
     /* border: 2px solid red; */
     display: flex;
-    width: 100%;
     justify-content: center
 }
 
@@ -226,10 +223,10 @@ body {
 
 .button-1 {
     margin-top: 3rem;
-    width: 8rem;
+    width: 10rem;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0.4rem;
+    padding: 1.2rem;
     background-color: #f3764a;
     letter-spacing: 1.5px;
     border: 0;
@@ -264,35 +261,120 @@ body {
     flex-direction: column;
     font-weight: 400;
 }
+
 hr {
     width: 20%
 }
-.common{
+
+.common {
     margin-top: 4rem;
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
-.h4{
+
+.h4 {
     color: #1B1B1B;
-    font-size: x-large  ;
+    font-size: x-large;
 }
-.common-1{
+
+.common-1 {
     color: #5E5E5E;
     display: flex;
     width: 70%;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 2rem;
 }
-.button-3{
+
+.button-3 {
     margin-top: 3rem;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0.7rem;
-   align-self: center;
+    padding: 1.2rem 1.3rem;
+    align-self: center;
     background-color: #f3764a;
     letter-spacing: 2px;
     border: 0;
-    
 }
 
+.c{
+    background-color: #f3764a;
+    padding: 2rem 0rem;
+}
+.some-1 {
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 1rem;
+    display: flex;
+}
+
+.ul {
+    width: 512px;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.some-main {
+    display: flex;
+}
+
+.some-2 {
+    padding: 3rem;
+    margin: 1rem;
+    width: 512px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.some-3{
+    
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 1rem;
+    display: flex;
+    text-align: center;
+}
+.some-4{
+    width: 512px;
+}
+h4{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center
+}
+
+.d{
+    /* border: 2px solid green; */
+    margin-top: 3rem;
+}
+
+.d-1{
+    display: flex;
+    justify-content: space-around;
+}
+.d-main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.d-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+    width: 50%;
+}
+.s-button{
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1.2rem 1.3rem;
+    align-self: center;
+    background-color: #f3764a;
+    letter-spacing: 2px;
+    border: 0;
+}
